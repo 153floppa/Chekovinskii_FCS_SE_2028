@@ -1,0 +1,46 @@
+# Модели машинного обучения
+catboost_regressor
+catboost_regressor/
+catboost_info/
+
+# Данные (датасеты) - исключаем только вне папки data/
+*.pkl
+!data/*.pkl
+
+# Временные файлы и артефакты
+*.png
+*.jpg
+*.jpeg
+feature_removal_recommendations.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Виртуальные окружения
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.log
+
+# Переменные окружения
+.env
+.env.local
