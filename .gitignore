@@ -8,7 +8,6 @@ catboost_info/
 !data/*.pkl
 
 # Временные файлы и артефакты
-*.png
 *.jpg
 *.jpeg
 feature_removal_recommendations.txt
