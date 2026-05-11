@@ -43,3 +43,8 @@ Thumbs.db
 # Переменные окружения
 .env
 .env.local
+# Large data files — excluded due to GitHub 100MB limit
+dataset/data/dataset_final.json
+dataset/data/dataset_original.json
+dataset/data/dataset_new.json
+dataset/data/result.pkl
